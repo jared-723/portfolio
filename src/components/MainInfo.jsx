@@ -13,7 +13,9 @@ const MainInfo = () => {
         </h3>
         <p className="font-medium">
           I am a junior programmer in a constant learning process, willing to
-          explore and innovate in different areas.
+          explore and innovate in different areas. Also, I have the initiative
+          to be self-taught and the knowledge in the English language to read
+          the available documentation
         </p>
       </section>
       <div className="hidden"></div>

@@ -4,11 +4,6 @@ import { projects } from "../sources/projects";
 
 const Projects = () => {
 
-
-  const handleOnClick = () => {
-
-  }
-
   return (
     <section className="w-full grid place-content-center text-center gap-4">
       <h3 className="font-bold">Projects</h3>
