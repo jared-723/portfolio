@@ -8,16 +8,16 @@ const NavBar = () => {
   };
   return (
     <>
-      <section className="w-screen h-[50px] fixed">
+      <section className="w-full h-[50px] fixed text-white bg-black">
         <nav className="w-full h-full bg-transparent p-4 flex justify-between items-center ">
           <h2 className="font-semibold text-lg">Jarwend A.</h2>
-          <div onClick={handleClickShowMenu} className="bg-green-500">
-            <i className="bx bx-menu-alt-right"></i>
+          <div onClick={handleClickShowMenu} >
+            <i className="text-slate-300/80 bx bx-menu-alt-right"></i>
           </div>
         </nav>
         <div
           className={`absolute  w-full h-auto bg-black text-white grid place-items-center top-0 right-0 py-4 transition-transform ${
-            isShowMenu ? "-translate-x-0" : "translate-x-[20rem]"
+            isShowMenu ? "-translate-x-0" : "translate-x-[50rem]"
           }`}
         >
           <p onClick={handleClickShowMenu}className="absolute top-2 right-2">X</p>

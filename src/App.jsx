@@ -1,23 +1,21 @@
+
 import "./App.css";
+import ContactMe from "./components/ContactMe";
+import Knowledge from "./components/Knowledge";
+import MainInfo from "./components/MainInfo";
 import NavBar from "./components/NavBar";
+import Projects from "./components/Projects";
 
 function App() {
+
   return (
     <>
-      <section>
+      <section className="bg-black text-white min-w-screen grid place-content-center">
         <NavBar />
-        <section className="flex flex-col items-center h-screen w-screen bg-slate-400 pt-16 px-2">
-          <div className="w-full h-[300px] bg-red-400">
-            <img src="" alt="" />
-          </div>
-          <h3>
-            I`m Jarwend Morales.
-            <br /> A front-end developer from Venezuela
-          </h3>
-        </section>
-
-        <section></section>
-        <section></section>
+        <MainInfo />
+        <Projects />
+        <Knowledge />
+        <ContactMe />
       </section>
     </>
   );
