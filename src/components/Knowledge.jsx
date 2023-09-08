@@ -2,7 +2,7 @@ import { logosKnowledge } from "../sources/logos"
 
 const Knowledge = () => {
   return (
-    <section className="grid px-4 gap-2 w-screen">
+    <section className="grid px-4 gap-2 w-full text-center">
     <h3>Knowledge</h3>
     <section className="grid grid-cols-3">
       {
