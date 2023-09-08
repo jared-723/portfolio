@@ -10,7 +10,7 @@ function App() {
 
   return (
     <>
-      <section className="bg-black text-white max-w-screen grid place-content-center gap-2 font-main">
+      <section className="bg-black text-white max-w-screen grid place-content-center gap-4 font-main">
         <NavBar />
         <MainInfo />
         <Projects />

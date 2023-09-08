@@ -17,10 +17,10 @@ const NavBar = () => {
         </nav>
         <div
           className={`absolute  w-full h-auto bg-black text-white grid place-items-center top-0 right-0 py-4 transition-transform ${
-            isShowMenu ? "-translate-x-0" : "translate-x-[50rem]"
+            isShowMenu ? "-translate-x-0" : "translate-x-[50rem] sm:translate-x-[80rem]"
           }`}
         >
-          <p onClick={handleClickShowMenu}className="absolute top-2 right-2">X</p>
+          <p onClick={handleClickShowMenu}className="absolute top-2 right-2 sm:right-4">X</p>
           <ul className={`grid gap-2`}>
             <li>Experience</li>
             <li>Work</li>

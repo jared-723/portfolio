@@ -24,7 +24,7 @@ const ContactMe = () => {
   return (
     <section className="w-full grid px-4 text-center pb-4 gap-4 place-content-center">
       <h3>Contact me</h3>
-      <form onSubmit={sendEmail} className="grid gap-2 px-4 bg-red-300 rounded-lg py-4 w-[min(300px,_400px)]">
+      <form onSubmit={sendEmail} className="grid gap-2 px-4 bg-slate-700 rounded-lg py-4 w-[min(300px,_400px)]">
         <div className="grid">
           <label htmlFor="userName">Name</label>
           <input type="text" name="user_name" id="userName" className="text-black"/>
