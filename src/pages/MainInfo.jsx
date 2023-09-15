@@ -1,10 +1,10 @@
 const MainInfo = () => {
   return (
-    <section className="flex flex-col items-center h-auto w-full bg-[#181823] pt-12 pb-6 gap-4 text-white">
-      {/* img for presentations, later */}
-      {/* <div className="w-full h-[300px] bg-red-400">
-        <img src="" alt="" />
-      </div> */}
+    <section className="flex flex-col items-center h-screen w-full bg-[#181823] pt-16 pb-6 gap-4 px-4 text-white md:flex-row md:pl-6">
+
+      <div className="w-[300px] h-[220px] overflow-hidden md:w-[700px]">
+        <img className="w-full object-contain" src="/img/programmerExample.jpg" alt="" />
+      </div>
       <section className="grid gap-4 px-4 pt-4">
         <h3 className="font-bold text-2xl">
           I`m Jarwend Morales.
