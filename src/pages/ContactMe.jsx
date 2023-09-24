@@ -19,7 +19,7 @@ const ContactMe = () => {
   };
 
   return (
-    <section className="w-full flex flex-col items-center px-4 text-center pb-4 gap-4 ">
+    <section className="w-full h-screen flex flex-col items-center justify-center px-4 text-center pb-4 gap-4 ">
       <div>
         <h3 className="font-bold">Contact me</h3>
         <p>
@@ -70,17 +70,6 @@ const ContactMe = () => {
           className="p-2 bg-blue-950 rounded-full hover:bg-blue-900 hover:font-semibold"
         />
       </form>
-      <footer className="flex flex-col items-center">
-        <h3 className="font-bold">Social media</h3>
-        <section className="flex gap-4 lg:flex-col">
-          <div className="hover:text-blue-600">
-            <a href="https://www.linkedin.com/in/jarwend-morales-478b41273" target="blank"><i class='bx bxl-linkedin text-2xl'></i></a>
-          </div>
-          <div className="hover:text-blue-600">
-            <a href="https://github.com/jared-723" target="blank"><i class="bx bxl-github text-2xl"></i></a>
-          </div>
-        </section>
-      </footer>
       </section>
     </section>
   );
